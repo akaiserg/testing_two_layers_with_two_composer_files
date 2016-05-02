@@ -1,0 +1,21 @@
+{
+  "name": "API documentation   Test system ",
+  "version": "0.1.0",
+  "description": "apidoc for the Test project",
+  "title": "Test project",
+  "url" : "http://localhost:8085/xampp/xampp/GitHub/simpleProject/api/public",
+  "header": {
+    "title": "Test project",
+	"filename": "header.md"
+    
+  },
+  "footer": {
+    "title": "Help",
+	"filename": "footer.md"
+    
+  },
+  "template": {
+  	"withCompare": false,
+  	"withGenerator": false
+  }
+}

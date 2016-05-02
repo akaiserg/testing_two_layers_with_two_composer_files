@@ -1,0 +1,20 @@
+{
+    "require": {
+        "slim/slim": "3.*",
+		 "ircmaxell/password-compat": "^1.0",
+        "akrabat/rka-ip-address-middleware": "^0.4.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+
+        "psr-4": {
+            "service\\utils\\systemHandler\\":"utils/systemHandler",
+            "system\\factory\\":"../system/factory"
+
+        },
+        "classmap":[
+
+
+        ]
+    }
+}

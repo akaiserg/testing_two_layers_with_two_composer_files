@@ -1,0 +1,28 @@
+{
+    "To reload the namespaces":"composer dump-autoload -o",
+    "coverage":"phpunit.bat -c path\\unitTest.xml --coverage-html path\\report",
+    "require": {
+        "desarrolla2/cache":  "~2.0",
+        "vlucas/phpdotenv": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "phpunit/php-code-coverage": "^2"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+
+        "psr-4": {
+            "system\\activity\\activities\\":"activity/activities",
+            "system\\store\\":"store",
+            "system\\helper\\":"helper",
+            "system\\environment\\":"environment"
+
+
+        },
+        "classmap":[
+
+
+        ]
+    }
+}
